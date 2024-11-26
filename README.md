@@ -44,6 +44,6 @@ Onuncu derste eriþtiðim sql tablo verileri üzerinde ekleme, silme ve deðiþtirme 
 
 # :books: Entity Framework Çalýþmasý
 
-C# Eðitim Kampýnýn 301 modülünde Entity Framwork metotlarýný kullanarak bir proje hazýrladýk. Proje için öncelikle turistik gezi turlarý için hazýrlanmýþ sql tablolarý oluþturduk. Bu tablolardaki veriler üzerinden belirli istatistikleri göstericeðimiz formu hazýrladýk. Verileri istediðimiz þekilde istatistik tablosuna aktarmamýzda bize yardýmcý olan  Select , Sum , Average , Max ve Where metotlarýný kullandýk.
+C# Eðitim Kampýnýn 301 modülünde Entity Framework kullanarak bir proje hazýrladýk. Proje için öncelikle turistik gezi turlarý için hazýrlanmýþ sql tablolarý oluþturduk. Bu tablolardaki veriler üzerinden belirli istatistikleri göstericeðimiz formu hazýrladýk. Verileri istediðimiz þekilde istatistik tablosuna aktarmamýzda bize yardýmcý olan  Select , Sum , Average , Max ve Where metotlarýný kullandýk.
 
 ![Screenshot](https://github.com/user-attachments/assets/ffc67b3e-535f-4f95-9efc-a971c61acba1)
