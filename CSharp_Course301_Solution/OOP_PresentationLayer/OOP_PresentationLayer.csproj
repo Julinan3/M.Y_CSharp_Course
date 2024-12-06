@@ -56,14 +56,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmCategory.Designer.cs">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCategory.resx">
+      <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -91,6 +94,14 @@
     <ProjectReference Include="..\OOP_BusinessLayer\OOP_BusinessLayer.csproj">
       <Project>{697fff3d-7628-4fc6-98e7-5b272dfaf8b9}</Project>
       <Name>OOP_BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OOP_DataAccessLayer\OOP_DataAccessLayer.csproj">
+      <Project>{130A189A-776A-48CF-B920-D79C3BB3B5CA}</Project>
+      <Name>OOP_DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OOP_EntityLayer\OOP_EntityLayer.csproj">
+      <Project>{736E110C-50F0-4975-A8FF-721387B10E6A}</Project>
+      <Name>OOP_EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
