@@ -55,5 +55,10 @@ namespace OOP_PresentationLayer
             updatedValues.CategoryStatus = true;
             _categoryService.TUpdate(updatedValues);
         }
+
+        private void FrmCategory_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
